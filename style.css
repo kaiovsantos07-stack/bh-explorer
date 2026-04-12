@@ -1,0 +1,110 @@
+/* RESET */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* BODY */
+body {
+font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+background: #333;
+color: white;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+}
+
+/* MENU */
+.menu ul {
+display: flex;
+list-style: none;
+}
+
+.menu ul li {
+margin-left: 20px;
+}
+
+.menu ul li a {
+color: white;
+text-decoration: none;
+}
+
+/* BANNER */
+.banner {
+background: url("https://picsum.photos/id/1005/1200/400") no-repeat center;
+background-size: cover;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.banner h2 {
+background: rgba(0,0,0,0.5);
+color: white;
+padding: 10px;
+}
+
+/* SOBRE */
+.sobre {
+padding: 20px;
+}
+
+/* DESTAQUES */
+.destaques {
+padding: 20px;
+display: flex;
+justify-content: space-around;
+}
+
+.destaques .card {
+width: 30%;
+padding: 10px;
+border: 1px solid #ccc;
+text-align: center;
+}
+
+.destaques .card img {
+width: 100%;
+}
+
+/* FORMULÁRIO */
+.formulario {
+padding: 20px;
+text-align: center;
+}
+
+.formulario form {
+margin-top: 10px;
+}
+
+.formulario input {
+padding: 10px;
+margin: 5px;
+}
+
+.formulario button {
+padding: 10px 20px;
+background: #333;
+color: white;
+border: none;
+}
+
+/* FOOTER */
+.footer {
+background: #333;
+color: white;
+text-align: center;
+padding: 15px;
+}
+
+/* POSITION EXAMPLE */
+.banner h2 {
+position: relative;
+top: 10px;
+}
