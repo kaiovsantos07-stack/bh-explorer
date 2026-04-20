@@ -8,3 +8,11 @@ Kaio
 
 ## Descricao
 Site responsivo sobre pontos turisticos de Belo Horizonte.
+
+## Prints
+
+### Desktop
+![Desktop](img/desktop.png)
+
+### Mobile
+![Mobile](img/mobile.png)
